@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "robotothin";
+    src: url("Roboto-Thin-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "robotolight";
+    src: url("Roboto-Light-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "robotoregular";
+    src: url("Roboto-Regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "robotomedium";
+    src: url("Roboto-Medium-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "robotobold";
+    src: url("Roboto-Bold-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.h1 {
+    font-size: 28px;
+    font-family: Arial;
+    padding: 10px;
+}
+
+#google, #local {
+    width: 50%;
+    float: left;
+}
+
+#google div, #local div {
+    line-height: 1.5;
+}
+
+#google .thin {
+    font-family: "Roboto";
+    font-weight: 100;
+}
+
+#google .light {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+#google .regular {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+#google .medium {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+#google .bold {
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+#local .thin {
+    font-family: "robotothin";
+    font-weight: normal;
+}
+
+#local .light {
+    font-family: "robotolight";
+    font-weight: normal;
+}
+
+#local .regular {
+    font-family: "robotoregular";
+    font-weight: normal;
+}
+
+#local .medium {
+    font-family: "robotomedium";
+    font-weight: normal;
+}
+
+#local .bold {
+    font-family: "robotobold";
+    font-weight: normal;
+}
+
+.font-13 {
+    font-size: 13px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.size {
+    display: inline-block;
+}
+
+.white, .black, .orange {
+    padding: 10px;
+}
+
+.white {
+    background-color: #000;
+    color: white;
+}
+
+.orange {
+    background-color: black;
+    color: #fbba00;
+}
